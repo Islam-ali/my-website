@@ -1,0 +1,362 @@
+#ABOUT
+{
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 100px;
+}
+.bg-lights
+{
+    background: #fafaf9;
+    -webkit-transition: 1s all;
+    -o-transition: 1s all;
+    transition: 1s all;
+}
+.bg-darks
+{
+    background: #020202 !important;
+}
+.border-img
+{
+    width: 350px;
+    height: 450px;
+    border: rgb(150, 110, 57) solid 4px;
+    position: relative;
+}
+.img
+{
+    position: absolute;
+    top: 20px;
+    left: -20px;
+    width: 350px;
+    height: 450px;
+    background-image: url('../../assets/2_files/ppp.jpg');
+    background-size: 100% 120%;
+}
+.About-Me
+{
+    width: 650px;
+    margin-left: 50px;
+    word-wrap: break-word;
+}
+.h3
+{
+    width: 150px;
+    height: 60px;
+    border-bottom: #ccccca solid 1.5px;
+    position: relative;
+}
+.h3::after
+{
+    content: "";
+    height: 1.5px;
+    width: 40%;
+    position: absolute;
+    bottom: -1.5px;
+    background: rgb(150, 110, 57);
+}
+.prag
+{
+    margin-top: 50px;
+    color: #7e7e7c;
+}
+.contact
+{
+    width: 100%;
+    height: 150px;
+    padding-top:20px ;
+    padding-left: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+.list
+{
+    width: 30%;
+    height: 30px;
+}
+i
+{
+    color: rgb(150, 110, 57);
+}
+.buttons
+{
+    margin-top: 10px;
+    width: 100%;
+}
+button
+{
+    padding: 7px 10px ;
+    border-radius: 50px;
+    background-color: rgb(150, 110, 57);
+    border: none;
+    -webkit-box-shadow:#7e7e7c 4px 4px 5px ;
+            box-shadow:#7e7e7c 4px 4px 5px ;
+    margin-right: 20px;
+    color: #fafaf9;
+}
+button:hover
+{
+    color: #fafaf9;
+}
+.fa-cloud-download-alt
+{
+    margin-right: 0 !important;
+}
+button:hover
+{
+    background-color: rgb(186, 132, 61) ;
+}
+.x
+{
+    color:#fafaf9 ;
+}
+.btn
+{
+    -webkit-box-shadow: none !important;
+            box-shadow: none !important; 
+}
+
+/**************Media Queries******************/
+
+@media(max-width: 1220px) and (min-width:992px)
+{
+    #ABOUT
+    {
+        padding: 70px;
+    }
+    .border-img
+    {
+        width: 30%;
+        height: 370px;
+        border: rgb(150, 110, 57) solid 4px;
+        position: relative;
+    }
+    .img
+    {
+        position: absolute;
+        top: 20px;
+        left: -20px;
+        width: 100%;
+        height: 370px;
+        background-image: url('../../assets/2_files/ppp.jpg');
+        background-size: 100% 120%;
+    }
+    .About-Me
+    {
+        width: 60%;
+        margin-left: 50px;
+    }
+    .prag
+    {
+        font-size: 15px;
+        margin-top: 20px;
+    }
+    .list
+    {
+        width: 50%;
+    }
+}
+
+@media(max-width: 992px) and (min-width:768px)
+{
+    #ABOUT
+    {
+        display: block;
+    }
+    .border-img
+    {
+        width: 90%;
+        height: 650px;
+        margin: 100px auto;
+        border: rgb(150, 110, 57) solid 4px;
+        position: relative;
+    }
+    .img
+    {
+        position: absolute;
+        top: 20px;
+        left: -20px;
+        width: 100%;
+        height: 100%;
+        background-image: url('../../assets/2_files/ppp.jpg');
+        background-size: 100% 120%;
+    }
+    .About-Me
+    {
+        margin: 0px auto;
+        width: 90%;
+        margin-left: 0px !important;
+    }
+    .prag
+    {
+        font-size: 15px;
+        margin-top: 20px;
+    }
+    .list
+    {
+        width: 50%;
+    }
+    .buttons
+    {
+        margin-top:20px ;
+    }
+}
+@media (min-width: 576px ) and (max-width: 768px)
+{
+    #ABOUT
+    {
+        display: block;
+        padding: 5%;
+    }
+    .h3
+    {
+        margin-top: 50px;
+    }
+    .border-img
+    {
+        width: 100%;
+        height: 650px;
+        margin-top: 50px;
+        border: rgb(150, 110, 57) solid 4px;
+        position: relative;
+    }
+    .img
+    {
+        position: absolute;
+        top: 15px;
+        left: -15px;
+        width: 100%;
+        height: 100%;
+        background-image: url('../../assets/2_files/ppp.jpg');
+        background-size: 100% 120%;
+    }
+    .About-Me
+    {
+        margin-top: 50px ;
+        margin: 0px auto;
+        width: 100%;
+        margin-left: 0px !important;
+    }
+    .prag
+    {
+        margin-top: 20px;
+    }
+    .list
+    {
+        width: 50%;
+    }
+    .buttons
+    {
+        margin-top:20px ;
+    }
+}
+@media (max-width: 576px)
+{
+    #ABOUT
+    {
+        display: block;
+        padding: 5%;
+    }
+    .h3
+    {
+        margin-top: 50px;
+    }
+    .border-img
+    {
+        width: 100%;
+        height: 500px;
+        margin-top: 50px;
+        border: rgb(150, 110, 57) solid 4px;
+        position: relative;
+    }
+    .img
+    {
+        position: absolute;
+        top: 20px;
+        left: -20px;
+        width: 100%;
+        height: 100%;
+        background-image: url('../../assets/2_files/ppp.jpg');
+        background-size: 100% 120%;
+    }
+    .About-Me
+    {
+        margin-top: 50px;
+        width: 100%;
+        margin: 20px auto;
+        margin-left: 0px !important;
+    }
+    .prag
+    {
+        font-size: 15px;
+        margin-top: 20px;
+    }
+    .list
+    {
+        width: 50%;
+    }
+    .buttons
+    {
+        margin-top:20px ;
+    }
+}
+@media (max-width: 450px)
+{
+    .prag
+    {
+        font-size: 12px;
+        margin-top: 20px;
+    }
+    .list
+    {
+        width: 50%;
+        font-size: 12px;
+    }
+    .About-Me
+    {
+        margin-top: 50px;
+        width: 100%;
+        padding-left: 10px;
+        height: 500px;
+    }
+}
+@media (max-width: 400px)
+{
+    .prag
+    {
+        font-size: 12px;
+        margin-top: 20px;
+    }
+    .list
+    {
+        width: 100%;
+        font-size: 12px;
+    }
+    .buttons
+    {
+        margin-top:10px ;
+    }
+    button
+    {
+        -webkit-transform: scale(.8,.8);
+            -ms-transform: scale(.8,.8);
+                transform: scale(.8,.8);
+        margin-right: 5px;
+    }
+    .About-Me
+    {
+        margin-top: 50px;
+        width: 100%;
+        padding-left: 10px;
+        height: 600px;
+        margin-bottom: 70px;
+    }
+}

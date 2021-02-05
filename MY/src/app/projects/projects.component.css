@@ -1,0 +1,164 @@
+#PROJECTS
+{
+    width: 100%;
+}
+.bg-lights
+{
+    background: #fafaf9;
+    -webkit-transition: 1s all;
+    -o-transition: 1s all;
+    transition: 1s all;
+}
+.bg-darks
+{
+    background: #000000 !important;
+}
+.h3
+{
+    width: 200px;
+    height: 60px;
+    text-align: center;
+    border-bottom: #ccccca solid 1.5px;
+    position: relative;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.h3::after
+{
+    content: "";
+    height: 1.5px;
+    width: 40%;
+    position: absolute;
+    bottom: -1.5px;
+    left: 60px;
+    background: rgb(150, 110, 57);
+}
+.content
+{
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+.projects
+{
+    width: 100%;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 33.3333% 15px 33.3333%;
+    grid-template-columns: repeat(2,33.3333%);
+    gap: 15px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+.project
+{
+    text-align: center;
+    padding-bottom: 10px;
+}
+.div-img
+{
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    position: relative;
+}
+.project img
+{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    -webkit-transition: .5s all;
+    -o-transition: .5s all;
+    transition: .5s all;
+}
+.project img:hover
+{
+    -webkit-transform: scale(1.1,1.1);
+        -ms-transform: scale(1.1,1.1);
+            transform: scale(1.1,1.1);
+}
+.descriptionCard
+{
+    padding: 0px 10px;
+}
+a
+{
+    padding: 7px 20px ;
+    border-radius: 50px;
+    background-color: rgb(150, 110, 57);
+    color: #fafaf9;
+}
+a:hover
+{
+    background-color: rgb(186, 132, 61) ;
+    color: #fafaf9;
+
+}
+.btn
+{
+    -webkit-box-shadow: none !important;
+            box-shadow: none !important; 
+}
+p
+{
+    color: #777777;
+}
+h4
+{
+    margin-top: 35px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+
+/***********************footer**********************/
+@media(min-width: 768px) and (max-width:992px)
+{
+    .projects
+    {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    h4
+    {
+        margin-top: 50px;
+        font-size: 30px;
+        font-weight: 700;
+    }
+}
+@media(min-width: 576px) and (max-width:768px)
+{
+    .projects
+    {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    h4
+    {
+        margin-top: 50px;
+        font-size: 30px;
+        font-weight: 700;
+    }
+}
+@media(max-width: 576px)
+{
+    .projects
+    {
+        width: 80%;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    h4
+    {
+        margin-top: 50px;
+        font-size: 30px;
+        font-weight: 700;
+    }
+}

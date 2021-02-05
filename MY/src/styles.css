@@ -1,0 +1,24 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('../node_modules/@fortawesome/fontawesome-free/css/all.min.css');
+
+
+::-webkit-scrollbar
+{
+    width: 12px;
+    z-index: 999999;
+}
+::-webkit-scrollbar-track
+{
+    background-color: #111111;
+}
+::-webkit-scrollbar-thumb
+{
+    width: 100%;
+    background:rgb(150, 110, 57);
+    border-radius: 10px;
+}
+body
+{
+    overflow-x: hidden;
+    overflow-y: hidden;
+}

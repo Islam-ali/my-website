@@ -1,0 +1,159 @@
+#RESUME
+{
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom:50px ;
+}
+.bg-lights
+{
+    background: #fafaf9;
+    -webkit-transition: 1s all;
+    -o-transition: 1s all;
+    transition: 1s all;
+}
+.bg-darks
+{
+    background: #000000 !important;
+}
+.h3
+{
+    width: 200px;
+    height: 60px;
+    text-align: center;
+    border-bottom: #ccccca solid 1.5px;
+    position: relative;
+}
+.h3::after
+{
+    content: "";
+    height: 1.5px;
+    width: 40%;
+    position: absolute;
+    bottom: -1.5px;
+    left: 60px;
+    background: rgb(150, 110, 57);
+}
+.buttons 
+{
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 50px;
+}
+.buttons ul
+{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 400px;
+    padding: 0;
+    border-radius: 50px;
+}
+.buttons ul li 
+{
+    width: 50%;
+    color: white;
+    background-color: #444444;
+    cursor: pointer;
+    text-align: center;
+}
+.active
+{
+    background-color: #111111 !important;
+}
+
+.bordr-r
+{
+    border-radius: 0px 50px 0px 0px ;
+    border-top:rgb(150, 110, 57) solid 3px ;
+    border-bottom:rgb(150, 110, 57) solid 3px ;
+}
+.bordr-l
+{
+    border-radius: 0px 0px 0px 50px ;
+    border-top:rgb(150, 110, 57) solid 3px ;
+    border-bottom:rgb(150, 110, 57) solid 3px ;
+}
+.EDUCATION
+{
+    display: none;
+}
+.resume
+{
+    width: 60%;
+    margin: 50px auto;
+    border-left: #ccccca solid 1px ;
+    position: relative;
+    margin-bottom: 20px;
+}
+.list
+{
+    padding-left: 40px;
+}
+.resume h6
+{
+    font-weight: 700;
+}
+.resume h6::after
+{
+    content:"";
+    width: 10px;
+    height: 10px;
+    background-color:rgb(150, 110, 57) ;
+    position: absolute;
+    left: -5px;
+    border-radius: 50%;
+}
+span
+{
+    font-size: 12px;
+    color: rgb(150, 110, 57);
+}
+p
+{
+    margin-top: 20px;
+    color: #666666;
+}
+.fas
+{
+    color: rgb(150, 110, 57);
+}
+h6
+{
+    color: #111111 ;
+}
+
+/**********footer**********/
+@media(max-width: 576px)
+{
+    .buttons ul
+    {
+        -webkit-transform: scale(.8,.8);
+            -ms-transform: scale(.8,.8);
+                transform: scale(.8,.8);
+    }
+}
+@media(max-width: 360px)
+{
+    .buttons ul
+    {
+        -webkit-transform: scale(.8,.8);
+            -ms-transform: scale(.8,.8);
+                transform: scale(.8,.8);
+        font-size: 12px;
+    }
+}
+@media(max-width: 300px)
+{
+    .buttons ul
+    {
+        -webkit-transform: scale(.9,.9);
+            -ms-transform: scale(.9,.9);
+                transform: scale(.9,.9);
+        font-size: 10px;
+    }
+}
